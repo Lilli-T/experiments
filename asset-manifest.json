@@ -1,16 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.b5317a2a.js",
+    "main.css": "/static/css/main.48f9d37c.css",
+    "main.js": "/static/js/main.5f34d5d4.js",
     "static/js/787.e70efd40.chunk.js": "/static/js/787.e70efd40.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/parfaits.png": "/static/media/parfaits.cadfcb92742426dfc4f1.png",
+    "static/media/pfp.png": "/static/media/pfp.3c24cd609f8206cafb3e.png",
+    "static/media/mazes.png": "/static/media/mazes.16f9e058c54b1cc2f510.png",
+    "static/media/digi-logo.png": "/static/media/digi-logo.2aa709065e2bef73c0ca.png",
+    "static/media/shiny-group.png": "/static/media/shiny-group.4458bd5a01a9b75f3735.png",
+    "static/media/a4.png": "/static/media/a4.f86c63533313fdf30d5b.png",
+    "static/media/Rlogo.png": "/static/media/Rlogo.3925a9d915bef82cbc65.png",
+    "static/media/CSSlogo.png": "/static/media/CSSlogo.8aaf7833370a6845139c.png",
+    "static/media/Javalogo.png": "/static/media/Javalogo.6c64373d3b7415758078.png",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.b5317a2a.js.map": "/static/js/main.b5317a2a.js.map",
+    "main.48f9d37c.css.map": "/static/css/main.48f9d37c.css.map",
+    "main.5f34d5d4.js.map": "/static/js/main.5f34d5d4.js.map",
     "787.e70efd40.chunk.js.map": "/static/js/787.e70efd40.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.b5317a2a.js"
+    "static/css/main.48f9d37c.css",
+    "static/js/main.5f34d5d4.js"
   ]
 }
