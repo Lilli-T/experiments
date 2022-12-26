@@ -1,0 +1,14 @@
+.parent {
+  flex-direction: row;
+  display: flex;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.text {
+
+}
+
+.pfp {
+  max-width: 100%;
+}

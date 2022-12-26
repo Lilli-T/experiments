@@ -3,6 +3,7 @@
   text-align: center;
   flex-direction: column;
   justify-content: center;
+  overscroll-behavior-y: auto;
 }
 
 .menu-bar {

@@ -1,0 +1,9 @@
+.logo {
+    object-fit: contain;
+    max-width: 100%;
+}
+
+.preview {
+    object-fit: contain;
+    max-width: 100%;
+}
