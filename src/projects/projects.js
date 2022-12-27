@@ -27,7 +27,7 @@ class Projects extends React.Component {
                 <h3>
                     Languages
                 </h3>
-                <table>
+                <table className="table">
                     <tr>
                         <td><img src={Javalogo} alt="Javalogo" className="logo" /></td>
                         <td><img src={Rlogo} alt="Rlogo" className="logo" /></td>
@@ -48,7 +48,7 @@ class Projects extends React.Component {
                 </h3>
                 <table>
                     <tr>
-                        <td className="about">
+                        <td className="single">
                             <img src={logo} alt="Logo" className="preview" />
                             <div>
                                 <h4>
@@ -69,7 +69,7 @@ class Projects extends React.Component {
                         </td>
                     </tr>
                     <tr>
-                        <td className="about">
+                        <td className="single">
                             <div>
                                 <h4>
                                     Seam Carving - Image Program
@@ -91,7 +91,7 @@ class Projects extends React.Component {
                         </td>
                     </tr>
                     <tr>
-                        <td className="about">
+                        <td className="single">
                             <img src={mazes} alt="Mazes" className="preview" />
                             <div>
                                 <h4>
@@ -111,7 +111,7 @@ class Projects extends React.Component {
                         </td>
                     </tr>
                     <tr>
-                        <td className="about">
+                        <td className="single">
                             <div>
                                 <h4>
                                     Integrating Wildfire Protection - Data Analysis
@@ -134,7 +134,7 @@ class Projects extends React.Component {
                         </td>
                     </tr>
                     <tr>
-                        <td className="about">
+                        <td className="single">
                             <img src={a4} alt="A4" className="preview" />
                             <div>
                                 <h4>

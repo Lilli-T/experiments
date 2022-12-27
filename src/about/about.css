@@ -1,12 +1,16 @@
 .parent {
-  flex-direction: row;
+  flex-direction: column;
   display: flex;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .text {
+  justify-content: left !important;
+}
 
+.p {
+  font-size: 18pt !important;
 }
 
 .pfp {

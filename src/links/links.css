@@ -3,4 +3,9 @@
     display: flex;
     font-size: calc(10px + 2vmin);
     color: white;
+    align-items: right;
+}
+
+.link {
+    color: white;
 }
