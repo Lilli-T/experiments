@@ -1,9 +1,13 @@
 .text {
     flex-direction: column;
     display: flex;
-    font-size: calc(10px + 2vmin);
+    font-size: 16pt !important;
     color: white;
-    align-items: right;
+    padding-top: 2%;
+}
+
+.icons {
+    height: 50px;
 }
 
 .link {

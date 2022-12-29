@@ -5,7 +5,7 @@
 
 import React from 'react';
 import './about.css';
-import pfp from './../assets/outlined/pfp.png';
+import pfp from './../assets/previews/self-round.png';
 
 class About extends React.Component {    
     render() {
@@ -22,22 +22,17 @@ class About extends React.Component {
                             </h2>
                             <div className="p">
                                 <p>
-                                    Welcome! It's a pleasure to meet you.            
-                                </p>
-                                <p>
-                                    I'm Lilli, a computer science major at the 
-                                    University of Washington, Seattle. I'm minoring in informatics, 
-                                    and I'll graduate in 2025. I'm interested in full stack web development, 
-                                    data analysis, and data visualization.
-                                </p>
-                                <p>
-                                    I'm currently looking for an internship in these fields. 
-                                    Follow the links below to contact me.
+                                    Welcome! It's a pleasure to meet you.  <br />  <br />
+                                    I'm Lilli, a <span class="highlight-ff009d">computer science major</span> at the
+                                    University of Washington, <span class="highlight-ff009d">Seattle</span>. I'm minoring in informatics, 
+                                    and I'll graduate in <span class="highlight-ff009d">2025</span>. 
+                                    I'm interested in <span class="highlight-ff009d">full stack web development</span>
+                                    , data analysis, and data visualization.
                                 </p>
                             </div>
                         </td>
                         <td>
-                            <img src={pfp} alt="Pfp" />
+                            <img src={pfp} alt="Pfp" className="glow-ring" />
                         </td>
                     </tr>
                 </table>

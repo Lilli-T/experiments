@@ -1,0 +1,128 @@
+/* texts */
+
+.header {
+    padding-top: 10%;
+}
+
+.p {
+    font-size: 16pt !important;
+}
+
+.links {
+    font-size: 16pt !important;
+    margin-left: 5%;
+}
+
+.link-text {
+    color: white;
+}
+
+.row {
+    flex-direction: row;
+    display: flex;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    padding-bottom: 10%;
+    padding-top: 2%;
+    align-items: center;
+}
+
+.project-title {
+    text-align: center;
+}
+
+.text-left {
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    width: 75%;
+    padding-right: 10%;
+}
+
+.text-right {
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    width: 75%;
+    padding-left: 10%;
+}
+
+/* rights */
+
+.glow-ring-dfe0fa {
+    object-fit: contain;
+    max-width: 100%;
+    border: 2px solid #dfe0fa;
+    width: 300px;
+    height: 300px;
+    border-radius: 70%;
+    box-shadow:
+        0 0 20px #dfe0fa,
+        0 0 50px #dfe0fa,
+        0 0 70px #dfe0fa;
+}
+
+.glow-ring-0be7fb {
+    object-fit: contain;
+    max-width: 100%;
+    border: 2px solid #0be7fb;
+    width: 300px;
+    height: 300px;
+    border-radius: 70%;
+    box-shadow:
+        0 0 20px #0be7fb,
+        0 0 50px #0be7fb,
+        0 0 70px #0be7fb;
+}
+
+.glow-ring-ff009d {
+    object-fit: contain;
+    max-width: 100%;
+    border: 2px solid #ff009d;
+    width: 300px;
+    height: 300px;
+    border-radius: 70%;
+    box-shadow:
+        0 0 20px #ff009d,
+        0 0 50px #ff009d,
+        0 0 70px #ff009d;
+}
+
+.glow-ring-ffdd7e {
+    object-fit: contain;
+    max-width: 100%;
+    border: 2px solid #ffdd7e;
+    width: 300px;
+    height: 300px;
+    border-radius: 70%;
+    box-shadow:
+        0 0 20px #ffdd7e,
+        0 0 50px #ffdd7e,
+        0 0 70px #ffdd7e;
+}
+
+/* highlights */
+
+.highlight-0be7fb {
+    text-shadow: 
+      0 0 2px #0be7fb,
+      0 0 10px #0be7fb,
+      0 0 21px #0be7fb;
+    z-index: -1;
+}
+
+.highlight-ff009d {
+    text-shadow: 
+      0 0 2px #ff009d,
+      0 0 10px #ff009d,
+      0 0 21px #ff009d;
+    z-index: -1;
+}
+
+.highlight-ffdd7e {
+    text-shadow: 
+      0 0 2px #ffdd7e,
+      0 0 10px #ffdd7e,
+      0 0 21px #ffdd7e;
+    z-index: -1;
+}

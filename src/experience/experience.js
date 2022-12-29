@@ -8,29 +8,25 @@ import './experience.css';
 class Experience extends React.Component {
     render() {
         return (
-            <div id = "experience" className="text">
+            <div id = "experience" className="exp-text">
                 <h2>
                     Experience
                 </h2>
                 <p>
-                    I'm currently on the teaching team for the class CSE 373:
-                    Data Structures and Algorithms.
-                </p>
-                <p>
-                    My roles so far:
-                    Teaching Assistant
-                    Section Team Leader
-                </p>
-                <p>
+                    I'm currently on the teaching team for the class CSE 373: <br />
+                    <span className="highlight-0be7fb">Data Structures and Algorithms</span>. <br /> <br />
+                    My roles so far: <br />
+                    Teaching Assistant <br />
+                    Section Team Leader <br /> <br />
                     I've made teaching materials, led small classes, 
                     created feedback forms, and collaborated with wonderful staff 
-                    to create an encouraging learning environment.
-                </p>
-                <p>
+                    to create an <span className="highlight-0be7fb">encouraging learning environment</span>.
+                     This coming quarter, I will be leading the 
+                    management team. <br /> <br />
                     I love seeing the many possible approaches
                     to create a working solution. Designing data structures
-                    and algorithms is the best mix between
-                    mechanics and creativity.
+                    and algorithms is the best mix
+                    between <span className="highlight-0be7fb">mechanics</span> and <span className="highlight-0be7fb">creativity</span>.
                 </p>
             </div>
         )

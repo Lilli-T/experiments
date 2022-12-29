@@ -15,24 +15,24 @@ class Links extends React.Component {
         return (
             <div id="links" className="text">
                 <h2>
-                Links
+                    Links
                 </h2>
                 <div className="text">
                     <table>
                         <tr>
-                            <td><img src={envelope} alt="Envelope" /></td>
-                            <td><a href="mailto:lillitoone@gmail.com" className="link">lillitoone@gmail.com</a></td>
+                            <td><img src={envelope} alt="Envelope" className="icons" /></td>
+                            <td>Mail: <a href="mailto:lillitoone@gmail.com" className="link">lillitoone@gmail.com</a></td>
                         </tr>
                         <tr>
-                            <td><img src={linkedin} alt="LinkedIn" /></td>
-                            <td><a href="https://www.linkedin.com/in/lilli-t/" className="link">lilli-t</a></td>
+                            <td><img src={linkedin} alt="LinkedIn" className="icons" /></td>
+                            <td>LinkedIn: <a href="https://www.linkedin.com/in/lilli-t/" className="link">lilli-t</a></td>
                         </tr>
                         <tr>
-                            <td><img src={github} alt="GitHub" /></td>
-                            <td><a href="https://github.com/Lilli-T" className="link">Lilli-T</a></td>
+                            <td><img src={github} alt="GitHub" className="icons" /></td>
+                            <td>GitHub: <a href="https://github.com/Lilli-T" className="link">Lilli-T</a></td>
                         </tr>
                         <tr>
-                            <td><img src={resume} alt="Resume" /></td>
+                            <td><img src={resume} alt="Resume" className="icons" /></td>
                             <td><a href="https://drive.google.com/file/d/1Czkdap8Y-K82Wdu_s2vFxr6yD9Ca8Hc1/view?usp=sharing" className="link">Resume</a></td>
                         </tr>
                     </table>
