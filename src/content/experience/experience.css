@@ -5,6 +5,8 @@
     font-size: 16pt !important;
     text-align: right;
     padding-left: 25%;
+    z-index: 1;
+    margin-top: -12%;
 }
 
 .highlight-0be7fb {

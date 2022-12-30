@@ -1,10 +1,10 @@
 import React from 'react';
 import './examples.css';
-import logo from './../assets/previews/logo.png';
-import seamcarved from './../assets/previews/parfaits.png';
-import mazes from './../assets/previews/mazes-b.png';
-import shiny from './../assets/previews/shiny-group.png';
-import a4 from './../assets/previews/a4.png';
+import logo from './../../assets/previews/logo.png';
+import seamcarved from './../../assets/previews/parfaits.png';
+import mazes from './../../assets/previews/mazes-b.png';
+import shiny from './../../assets/previews/shiny-group.png';
+import a4 from './../../assets/previews/a4.png';
 
 class Examples extends React.Component {
     render() {

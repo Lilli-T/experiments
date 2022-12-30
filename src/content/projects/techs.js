@@ -1,10 +1,10 @@
 import React from 'react';
 import './techs.css';
-import CSSlogo from './../assets/logos/CSSlogo.png';
-import HTML5logo from './../assets/logos/HTML5logo.png';
-import Javalogo from './../assets/logos/Javalogo.png';
-import Rlogo from './../assets/logos/Rlogo.png';
-import Reactlogo from './../assets/logos/Reactlogo.png';
+import CSSlogo from './../../assets/logos/CSSlogo.png';
+import HTML5logo from './../../assets/logos/HTML5logo.png';
+import Javalogo from './../../assets/logos/Javalogo.png';
+import Rlogo from './../../assets/logos/Rlogo.png';
+import Reactlogo from './../../assets/logos/Reactlogo.png';
 
 
 class Techs extends React.Component {

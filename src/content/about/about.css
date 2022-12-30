@@ -3,6 +3,7 @@
   display: flex;
   font-size: calc(10px + 2vmin);
   color: white;
+  z-index: 1;
 }
 
 .text {
@@ -19,7 +20,6 @@
     0 0 2px #ff009d,
     0 0 10px #ff009d,
     0 0 21px #ff009d;
-  z-index: -1;
 }
 
 .glow-ring {

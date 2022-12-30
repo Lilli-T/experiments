@@ -1,3 +1,12 @@
+.link-big {
+    flex-direction: column;
+    display: flex;
+    font-size: 16pt !important;
+    color: white;
+    padding-top: 2%;
+    z-index: 1;
+}
+
 .text {
     flex-direction: column;
     display: flex;
@@ -8,8 +17,10 @@
 
 .icons {
     height: 50px;
+    z-index: 1;
 }
 
 .link {
     color: white;
+    z-index: 1;
 }

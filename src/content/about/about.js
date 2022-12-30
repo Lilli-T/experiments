@@ -5,7 +5,7 @@
 
 import React from 'react';
 import './about.css';
-import pfp from './../assets/previews/self-round.png';
+import pfp from './../../assets/previews/self-round.png';
 
 class About extends React.Component {    
     render() {

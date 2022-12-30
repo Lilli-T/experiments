@@ -5,15 +5,15 @@
 
 import React from 'react';
 import './links.css';
-import envelope from './../assets/icons/envelope.png';
-import linkedin from './../assets/icons/linkedin.png';
-import github from './../assets/icons/github.png';
-import resume from './../assets/icons/resume.png';
+import envelope from './../../assets/icons/envelope.png';
+import linkedin from './../../assets/icons/linkedin.png';
+import github from './../../assets/icons/github.png';
+import resume from './../../assets/icons/resume.png';
 
 class Links extends React.Component {
     render() {
         return (
-            <div id="links" className="text">
+            <div id="links" className="link-big">
                 <h2>
                     Links
                 </h2>
