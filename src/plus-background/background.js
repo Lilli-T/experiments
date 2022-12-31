@@ -7,7 +7,7 @@ import Projects from './../content/projects/projects.js';
 import Menu from './../content/menu/menu.js';
 
 function Background() {
-        return (
+    return (
         <div className="all">
             <div className="content">
                 <Menu />

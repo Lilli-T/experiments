@@ -25,7 +25,7 @@ class Examples extends React.Component {
                             learning about mixing <span className="highlight-ff009d">JS</span>
                             , <span className="highlight-ff009d">HTML</span>,
                             and <span className="highlight-ff009d">CSS</span> elements in a project. 
-                            I also learned about web <span className="highlight-ff009d">deployment</span> and 
+                            I also learned about <span className="highlight-ff009d">animating</span> componenets, web deployment, and 
                             hosting services. See my learning/development process below.
                         </p>
                         <p className="links">
