@@ -106,7 +106,7 @@
     width: 50% !important;
     transform: 
         rotate(152deg)
-        translateX(-35em)
+        translateX(-40em)
         translateY(-50em);
 }
 
@@ -123,7 +123,7 @@
     transform: 
         rotate(152deg)
         translateX(0em)
-        translateY(-132em);
+        translateY(-125em);
 }
 
 .fourth-1 {
