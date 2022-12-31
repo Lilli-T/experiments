@@ -5,11 +5,11 @@
 }
 
 .p {
-    font-size: 16pt !important;
+    font-size: 14pt !important;
 }
 
 .links {
-    font-size: 16pt !important;
+    font-size: 14pt !important;
     margin-left: 5%;
 }
 
@@ -20,7 +20,7 @@
 .row {
     flex-direction: row;
     display: flex;
-    font-size: calc(10px + 2vmin);
+    font-size: 18pt;
     color: white;
     padding-bottom: 10%;
     padding-top: 2%;
@@ -33,21 +33,21 @@
 
 .text-left {
     flex-direction: column;
-    font-size: calc(10px + 2vmin);
+    font-size: 18pt;
     color: white;
     width: 75%;
-    padding-right: 10%;
+    padding-right: 15%;
 }
 
 .text-right {
     flex-direction: column;
-    font-size: calc(10px + 2vmin);
+    font-size: 18pt;
     color: white;
     width: 75%;
-    padding-left: 10%;
+    padding-left: 15%;
 }
 
-/* rights */
+/* rings */
 
 .glow-ring-dfe0fa {
     object-fit: contain;
@@ -130,28 +130,28 @@
 /* animation */
 
 .glow-dfe0fa {
-    animation-duration: 5s;
+    animation-duration: 3s;
     animation-name: glow-dfe0fa;
     animation-iteration-count: infinite;
     animation-timing-function: cubic-bezier(.19,-0.01,1,.63);
 }
 
 .glow-0be7fb {
-    animation-duration: 5s;
+    animation-duration: 3s;
     animation-name: glow-0be7fb;
     animation-iteration-count: infinite;
     animation-timing-function: cubic-bezier(.19,-0.01,1,.63);
 }
 
 .glow-ff009d {
-    animation-duration: 5s;
+    animation-duration: 3s;
     animation-name: glow-ff009d;
     animation-iteration-count: infinite;
     animation-timing-function: cubic-bezier(.19,-0.01,1,.63);
 }
 
 .glow-ffdd7e {
-    animation-duration: 5s;
+    animation-duration: 3s;
     animation-name: glow-ffdd7e;
     animation-iteration-count: infinite;
     animation-timing-function: cubic-bezier(.19,-0.01,1,.63);
@@ -159,40 +159,36 @@
 
 @keyframes glow-dfe0fa {
     50% {
-        opacity: 0.7;
         box-shadow:
+        0 0 2px #dfe0fa,
         0 0 10px #dfe0fa,
-        0 0 30px #dfe0fa,
-        0 0 50px #dfe0fa;
+        0 0 20px #dfe0fa;
     }
 }
 
 @keyframes glow-0be7fb {
     50% {
-        opacity: 0.7;
         box-shadow:
+        0 0 2px #0be7fb,
         0 0 10px #0be7fb,
-        0 0 30px #0be7fb,
-        0 0 50px #0be7fb;
+        0 0 20px #0be7fb;
     }
 }
 
 @keyframes glow-ff009d {
     50% {
-        opacity: 0.7;
         box-shadow:
+        0 0 2px #ff009d,
         0 0 10px #ff009d,
-        0 0 30px #ff009d,
-        0 0 50px #ff009d;
+        0 0 20px #ff009d;
     }
 }
 
 @keyframes glow-ffdd7e {
     50% {
-        opacity: 0.7;
         box-shadow:
+        0 0 2px #ffdd7e,
         0 0 10px #ffdd7e,
-        0 0 30px #ffdd7e,
-        0 0 50px #ffdd7e;
+        0 0 20px #ffdd7e;
     }
 }

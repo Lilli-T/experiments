@@ -1,18 +1,18 @@
 .parent {
   flex-direction: column;
   display: flex;
-  font-size: calc(10px + 2vmin);
+  font-size: 18pt;
   color: white;
   z-index: 1;
 }
 
 .text {
   justify-content: left !important;
-  width: 90%;
+  width: 80%;
 }
 
 .p {
-  font-size: 16pt !important;
+  font-size: 13pt !important;
 }
 
 .highlight-ff009d {
@@ -36,7 +36,7 @@
 }
 
 .glow-effect {
-  animation-duration: 5s;
+  animation-duration: 3s;
   animation-name: glow;
   animation-iteration-count: infinite;
   animation-timing-function: cubic-bezier(.19,-0.01,1,.63);
@@ -44,11 +44,10 @@
 
 @keyframes glow {
   50% {
-    opacity: 0.7;
     box-shadow:
     inset 0 0 50px #035ce2,
+    0 0 2px #035ce2,
     0 0 10px #035ce2,
-    0 0 30px #035ce2,
-    0 0 50px #035ce2;
+    0 0 20px #035ce2;
   }
 }

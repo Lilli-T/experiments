@@ -3,10 +3,10 @@
     flex-direction: row;
     align-items: right;
     justify-content: right;
-    font-size: calc(10px + 2vmin);
+    font-size: 18pt;
     color: white;
     right: 0;
-    margin-right: 10%;
+    margin-right: 16.5%;
     position: fixed;
     z-index: 1;
 }
@@ -28,4 +28,8 @@
         0 0 2px #0be7fb,
         0 0 10px #0be7fb,
         0 0 21px #0be7fb;
+}
+
+.move-fix {
+    margin-top: 12%;
 }

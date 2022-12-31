@@ -10,7 +10,7 @@ import Reactlogo from './../../assets/logos/Reactlogo.png';
 class Techs extends React.Component {
     render() {
         return (
-            <div>
+            <div className="proj-font">
                 <h3>
                     Languages
                 </h3>

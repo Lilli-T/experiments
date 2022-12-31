@@ -19,7 +19,7 @@ class Menu extends React.Component {
                 <ul className="list">
                     <li className="list-item"><Link activeClass="active" to="about" spy={true} smooth={true}>About</Link></li>
                     <li className="list-item"><Link to="links" spy={true} smooth={true}>Links</Link></li>
-                    <li className="list-item"><Link to="experience" spy={true} smooth={true}>Experience</Link></li>
+                    <li className="list-item"><Link to="experience" spy={true} smooth={true} offset={-100}>Experience</Link></li>
                     <li className="list-item"><Link to="projects" spy={true} smooth={true}>Projects</Link></li>
                 </ul>
             </div>            
