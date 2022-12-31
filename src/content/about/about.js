@@ -51,7 +51,8 @@ function About() {
                                 University of Washington, <span class="highlight-ff009d">Seattle</span>. I'm minoring in informatics, 
                                 and I'll graduate in <span class="highlight-ff009d">2025</span>. 
                                 I'm interested in <span class="highlight-ff009d">full stack web development</span>
-                                , data analysis, and data visualization.
+                                , data analysis, and data visualization.  <br />  <br />
+                                I'm currently looking for an internship in these fields. Follow the links below to contact me.
                             </p>
                         </div>
                     </td>
