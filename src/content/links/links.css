@@ -1,7 +1,7 @@
 .link-big {
     flex-direction: column;
     display: flex;
-    font-size: 16pt !important;
+    font-size: 14pt !important;
     color: white;
     padding-top: 2%;
     z-index: 1;
@@ -10,7 +10,7 @@
 .text {
     flex-direction: column;
     display: flex;
-    font-size: 16pt !important;
+    font-size: 14pt !important;
     color: white;
     padding-top: 2%;
 }

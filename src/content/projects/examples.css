@@ -5,11 +5,11 @@
 }
 
 .p {
-    font-size: 16pt !important;
+    font-size: 14pt !important;
 }
 
 .links {
-    font-size: 16pt !important;
+    font-size: 14pt !important;
     margin-left: 5%;
 }
 
@@ -20,7 +20,7 @@
 .row {
     flex-direction: row;
     display: flex;
-    font-size: calc(10px + 2vmin);
+    font-size: 18pt;
     color: white;
     padding-bottom: 10%;
     padding-top: 2%;
@@ -33,21 +33,21 @@
 
 .text-left {
     flex-direction: column;
-    font-size: calc(10px + 2vmin);
+    font-size: 18pt;
     color: white;
     width: 75%;
-    padding-right: 10%;
+    padding-right: 15%;
 }
 
 .text-right {
     flex-direction: column;
-    font-size: calc(10px + 2vmin);
+    font-size: 18pt;
     color: white;
     width: 75%;
-    padding-left: 10%;
+    padding-left: 15%;
 }
 
-/* rights */
+/* rings */
 
 .glow-ring-dfe0fa {
     object-fit: contain;

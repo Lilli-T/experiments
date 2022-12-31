@@ -1,18 +1,18 @@
 .parent {
   flex-direction: column;
   display: flex;
-  font-size: calc(10px + 2vmin);
+  font-size: 18pt;
   color: white;
   z-index: 1;
 }
 
 .text {
   justify-content: left !important;
-  width: 90%;
+  width: 80%;
 }
 
 .p {
-  font-size: 16pt !important;
+  font-size: 13pt !important;
 }
 
 .highlight-ff009d {
