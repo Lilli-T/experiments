@@ -126,3 +126,73 @@
       0 0 21px #ffdd7e;
     z-index: -1;
 }
+
+/* animation */
+
+.glow-dfe0fa {
+    animation-duration: 5s;
+    animation-name: glow-dfe0fa;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.19,-0.01,1,.63);
+}
+
+.glow-0be7fb {
+    animation-duration: 5s;
+    animation-name: glow-0be7fb;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.19,-0.01,1,.63);
+}
+
+.glow-ff009d {
+    animation-duration: 5s;
+    animation-name: glow-ff009d;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.19,-0.01,1,.63);
+}
+
+.glow-ffdd7e {
+    animation-duration: 5s;
+    animation-name: glow-ffdd7e;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.19,-0.01,1,.63);
+}
+
+@keyframes glow-dfe0fa {
+    50% {
+        opacity: 0.7;
+        box-shadow:
+        0 0 10px #dfe0fa,
+        0 0 30px #dfe0fa,
+        0 0 50px #dfe0fa;
+    }
+}
+
+@keyframes glow-0be7fb {
+    50% {
+        opacity: 0.7;
+        box-shadow:
+        0 0 10px #0be7fb,
+        0 0 30px #0be7fb,
+        0 0 50px #0be7fb;
+    }
+}
+
+@keyframes glow-ff009d {
+    50% {
+        opacity: 0.7;
+        box-shadow:
+        0 0 10px #ff009d,
+        0 0 30px #ff009d,
+        0 0 50px #ff009d;
+    }
+}
+
+@keyframes glow-ffdd7e {
+    50% {
+        opacity: 0.7;
+        box-shadow:
+        0 0 10px #ffdd7e,
+        0 0 30px #ffdd7e,
+        0 0 50px #ffdd7e;
+    }
+}

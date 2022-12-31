@@ -32,7 +32,7 @@ class About extends React.Component {
                             </div>
                         </td>
                         <td>
-                            <img src={pfp} alt="Pfp" className="glow-ring" />
+                            <img src={pfp} alt="Pfp" className="glow-ring glow-effect" />
                         </td>
                     </tr>
                 </table>

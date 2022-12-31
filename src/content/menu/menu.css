@@ -5,7 +5,9 @@
     justify-content: right;
     font-size: calc(10px + 2vmin);
     color: white;
+    right: 0;
     margin-right: 10%;
+    position: fixed;
     z-index: 1;
 }
 

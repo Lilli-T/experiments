@@ -14,7 +14,7 @@ class Examples extends React.Component {
                     Projects
                 </h3>
                 <div className="row">
-                    <img src={logo} alt="Logo" className="glow-ring-dfe0fa" />
+                    <img src={logo} alt="Logo" className="glow-ring-dfe0fa glow-dfe0fa" />
                     <div className="text-right">
                         <h4 className="project-title">
                             Portfolio - Web Development
@@ -52,10 +52,10 @@ class Examples extends React.Component {
                             <a href="https://courses.cs.washington.edu/courses/cse373/22su/projects/seamcarving/" className="link-text">Specification</a>
                         </p>
                     </div>
-                    <img src={seamcarved} alt="SaamCarved" className="glow-ring-0be7fb" />
+                    <img src={seamcarved} alt="SaamCarved" className="glow-ring-0be7fb glow-0be7fb" />
                 </div>
                 <div className="row">
-                    <img src={mazes} alt="Mazes" className="glow-ring-ff009d" />
+                    <img src={mazes} alt="Mazes" className="glow-ring-ff009d glow-ff009d" />
                     <div className="text-right">
                         <h4 className="project-title">
                             Mazes - Graph GUI
@@ -91,10 +91,10 @@ class Examples extends React.Component {
                             <a href="https://github.com/info201b-au2022/project-Lilli-T" className="link-text">GitHub Repository</a>
                         </p>
                     </div>
-                    <img src={shiny} alt="ShinyGroup" className="glow-ring-ffdd7e" />
+                    <img src={shiny} alt="ShinyGroup" className="glow-ring-ffdd7e glow-ffdd7e" />
                 </div>
                 <div className="row">
-                    <img src={a4} alt="A4" className="glow-ring-0be7fb" />
+                    <img src={a4} alt="A4" className="glow-ring-0be7fb glow-0be7fb" />
                     <div className="text-right">
                         <h4 className="project-title">
                             Incarceration Trends - Data Analysis
