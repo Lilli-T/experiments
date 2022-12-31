@@ -6,32 +6,32 @@
 import React from 'react';
 import './about.css';
 import pfp from './../../assets/previews/self-round.png';
-import { useGlitch } from 'react-powerglitch';
+// import { useGlitch } from 'react-powerglitch';
 
 function About() {    
-    const glitch = useGlitch({
-        "playMode": "hover",
-        "createContainers": true,
-        "hideOverflow": false,
-        "timing": {
-          "duration": 300,
-          "iterations": 1
-        },
-        "glitchTimeSpan": false,
-        "shake": {
-          "velocity": 15,
-          "amplitudeX": 0.1,
-          "amplitudeY": 0.1
-        },
-        "slice": {
-          "count": 30,
-          "velocity": 6,
-          "minHeight": 0.02,
-          "maxHeight": 0.15,
-          "hueRotate": true
-        },
-        "pulse": false
-    });
+    // const glitch = useGlitch({
+    //     "playMode": "hover",
+    //     "createContainers": true,
+    //     "hideOverflow": false,
+    //     "timing": {
+    //       "duration": 300,
+    //       "iterations": 1
+    //     },
+    //     "glitchTimeSpan": false,
+    //     "shake": {
+    //       "velocity": 15,
+    //       "amplitudeX": 0.1,
+    //       "amplitudeY": 0.1
+    //     },
+    //     "slice": {
+    //       "count": 30,
+    //       "velocity": 6,
+    //       "minHeight": 0.02,
+    //       "maxHeight": 0.15,
+    //       "hueRotate": true
+    //     },
+    //     "pulse": false
+    // });
 
     return (
         <div id="about" className="parent">
@@ -56,7 +56,7 @@ function About() {
                         </div>
                     </td>
                     <td>
-                        <img src={pfp} alt="Pfp" className="glow-ring glow-effect" ref={glitch.ref} />
+                        <img src={pfp} alt="Pfp" className="glow-ring glow-effect" />
                     </td>
                 </tr>
             </table>
